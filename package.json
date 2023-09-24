@@ -1,0 +1,33 @@
+{
+  "name": "chat",
+  "version": "1.0.0",
+  "description": "Task for Yandex Practicum",
+  "main": "index.js",
+  "engines": {
+    "node": "16.19.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "start": "npm run build && node server.cjs",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yandex-praktikum/middle.messenger.praktikum.yandex.git"
+  },
+  "author": "Gennady Kashin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yandex-praktikum/middle.messenger.praktikum.yandex/issues"
+  },
+  "homepage": "https://github.com/yandex-praktikum/middle.messenger.praktikum.yandex#readme",
+  "devDependencies": {
+    "express": "^4.18.2",
+    "sass": "^1.66.1",
+    "vite": "^4.4.5"
+  },
+  "dependencies": {
+    "handlebars": "^4.7.8"
+  }
+}
