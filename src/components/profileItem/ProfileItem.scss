@@ -1,10 +1,10 @@
 
-@import '../../styles/variables.scss';
+@import '../../styles/variables';
 
 .profile-item {
     width: 100%;
     border-bottom: 1px solid #EAEAEA;
-    padding: 10px 0px;
+    padding: 10px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;

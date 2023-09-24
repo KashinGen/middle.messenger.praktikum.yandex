@@ -1,5 +1,5 @@
 import * as Pages from '../pages';
-import Handlebars, { log } from 'handlebars';
+import Handlebars from 'handlebars';
 
 
 
@@ -72,8 +72,9 @@ const attachRouterListeners = () => {
             e.preventDefault();
             const target = e.target;
             const href = link.closest('.router-link');
-            if (!target || !(href instanceof HTMLAnchorElement)) return;
-            console.log(e);
+            if (!target || !(href instanceof HTMLAnchorElement)) {
+                return;
+            }
             urlRoute(e);
         });
     }
@@ -100,7 +101,6 @@ const urlLocationHandler = () => {
     if (location.length === 0) {
         location = '/';
     }
-    console.log(location, routes,routes[location]);
     const route = routes[location] || routes[404];
     const root = document.getElementById('root');
     if (root) {

@@ -3,7 +3,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     padding: 0;
     border: 0;
     font-size: 100%;
-    font: inherit;
+    font-family: inherit;
     vertical-align: baseline; }
   
   /* HTML5 display-role reset for older browsers */
@@ -21,22 +21,28 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     quotes: none; }
   
   blockquote {
-    &:before, &:after {
+    &::before, &::after {
       content: '';
       content: none; } }
   
   q {
-    &:before, &:after {
+    &::before, &::after {
       content: '';
       content: none; } }
   
   table {
     border-collapse: collapse;
     border-spacing: 0; }
+
     a {
       text-decoration: none;
       font-size: inherit;
       color: inherit;
     }
     ol, ul, li { list-style: none; }
-    button, input, select, textarea { background-color: transparent; outline: none; border: 0; }
+
+    button, input, select, textarea { 
+      background-color: transparent; 
+      outline: none; 
+      border: 0; 
+    }
