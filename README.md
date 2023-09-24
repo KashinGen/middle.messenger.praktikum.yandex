@@ -2,7 +2,7 @@
 
 Учебный проект по курсу "Мидл-фронтенд разработчик" от Яндекс.Практикума.
 
-Для начала нужно выполнить команду `npm install`, а после `npm run start`, чтобы запустить проект.
+Для начала нужно выполнить команду `npm install`, а после `npm run dev`, чтобы запустить проект.
 
 ## Команды:
 
@@ -28,7 +28,3 @@
 [**Изменение данных**](https://kashin-yandex-chat.netlify.app/profile-change)
 
 [**Изменение пароля**](https://kashin-yandex-chat.netlify.app/profile-password)
-
-
-
-
