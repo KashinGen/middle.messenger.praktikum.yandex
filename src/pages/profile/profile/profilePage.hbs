@@ -1,0 +1,27 @@
+<div class="fullscreen">
+    <div class="profile-navigation"  goToPage="chats">
+        {{> BackButton href="/chats" }}
+    </div>
+    <div class="profile">
+        <div class="profile__container">
+            <div class="profile__avatar">
+                {{> Avatar }}
+                {{> Title text="Иван" type="bold" }}
+            </div>
+            <div class="profile__part">
+                {{> ProfileItem label="Почта" isEdit=false name="email" type="email" value="iiivanov@yandex.ru" }}
+                {{> ProfileItem label="Логин" isEdit=false name="login" type="text" value="iiivanov" }}
+                {{> ProfileItem label="Имя" isEdit=false name="firstname" type="text" value="Иван" }}
+                {{> ProfileItem label="Отчество" isEdit=false name="midlename" type="text" value="Иванович" }}
+                {{> ProfileItem label="Фамилия" isEdit=false name="lastname" type="text" value="Иванов" }}
+                {{> ProfileItem label="Никнейм" isEdit=false name="nikname" type="text" value="Иван" }}
+                {{> ProfileItem label="Телефон" isEdit=false name="phone" type="phone" value="8-800-535-35-35" }}
+            </div>
+            <div class="profile__part">
+                {{> AppLink text="Изменить данные" type="secondary" href="/profile-change" }}
+                {{> AppLink text="Изменить пароль" type="secondary" href="/profile-password" }}
+                {{> AppLink text="Выйти" type="important" href="/" }}
+            </div>
+        </div>
+    </div>
+</div>

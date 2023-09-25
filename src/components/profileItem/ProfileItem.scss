@@ -1,0 +1,35 @@
+
+@import '../../styles/variables';
+
+.profile-item {
+    width: 100%;
+    border-bottom: 1px solid #EAEAEA;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    
+    &__label {
+        color: $color-baseblack;
+        white-space: nowrap;
+    }
+
+    &__value {
+        color: $color-grey;
+        width: 100%;
+        text-align: end;
+    }
+
+    &__input {
+        width: 100%;
+        text-align: end;
+        outline: none;
+        border: none;
+        color: $color-grey;
+        font-size: 14px;
+        font-weight: 600;
+    }
+}

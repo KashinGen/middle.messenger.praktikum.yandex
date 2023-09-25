@@ -1,0 +1,18 @@
+@import '../../../styles/variables';
+
+.title {
+    font-size: 20px;
+    font-weight: 500;
+    color: $color-baseblack;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &__small {
+        font-size: 16px;
+    }
+    
+    &__bold {
+        font-weight: 600;
+    }
+}

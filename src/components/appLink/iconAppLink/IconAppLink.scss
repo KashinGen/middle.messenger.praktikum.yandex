@@ -1,0 +1,28 @@
+@import '../../../styles/variables';
+
+.link-with-icon {
+    cursor: pointer;
+    color: $color-grey;
+    font-size: 12px;
+    background: transparent;
+    border: none;
+
+    &__text {
+        font-weight: 600;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+
+    &__arrow {
+        background: url('../../../assets/icons/chevronRightIcon.svg');
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 6px;
+        height: 10px;
+    }
+
+    &:hover {
+        opacity: 0.9;
+    }
+}

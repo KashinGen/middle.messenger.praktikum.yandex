@@ -1,0 +1,19 @@
+<div class="form-container">
+    {{#> Form formStyles="form-content" }}
+        {{> Title text="Регистрация" }}
+        <div class="form-content__form-block form-content__fields">
+            {{> Input label="Почта" type="email" placeholder="Почта" name="email" }}
+            {{> Input label="Логин" type="text" placeholder="Логин" name="login" }}
+            {{> Input label="Фамилия" type="text" placeholder="Фамилия" name="second_name" }}
+            {{> Input label="Имя" type="text" placeholder="Имя" name="first_name" }}
+            {{> Input label="Отчество" type="text" placeholder="Отчество" name="middle_name" }}
+            {{> Input label="Телефон" type="text" type="tel" placeholder="Телефон" name="phone" }}
+            {{> Input label="Пароль" type="text" type="password" placeholder="Пароль" name="password" }}
+            {{> Input label="Повторить пароль" type="password" placeholder="Повторить пароль" name="repeate_password" }}
+        </div>
+        <div class="form-content__form-block form-content__actions">
+            {{> Button text="Зарегистрироваться" type="primary" }}
+            {{> AppLink text="Войти" type="secondary" href="/login" }}
+        </div>
+    {{/Form}}
+</div>

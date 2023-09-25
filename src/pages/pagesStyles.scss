@@ -1,0 +1,15 @@
+.widget {
+    position: fixed;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: auto;
+}
+
+.fullscreen {
+    display: flex;
+    position: fixed;
+    inset: 0;
+    overflow: auto;
+}

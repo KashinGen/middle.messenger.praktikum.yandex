@@ -1,0 +1,10 @@
+@import '../../../styles/variables';
+
+.info {
+    font-size: 40px;
+    font-weight: 500;
+    color: $color-baseblack;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

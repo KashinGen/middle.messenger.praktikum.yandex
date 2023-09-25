@@ -1,0 +1,13 @@
+<div class="form-container">
+    {{#> Form formStyles="form-content" }}
+        {{> Title text="Вход" }}
+        <div class="form-content__form-block form-content__fields">
+            {{> Input label="Логин" type="text" placeholder="Логин" name="login" }}
+            {{> Input label="Пароль" type="password" placeholder="Пароль" name="password" }}
+        </div>
+        <div class="form-content__form-block form-content__actions">
+            {{> Button text="Войти" type="primary" href="/chats" }}
+            {{> AppLink text="Нет аккаунта?" type="secondary"  href="/register" }}
+        </div>
+    {{/Form}}
+</div>

@@ -1,0 +1,36 @@
+@import '../../styles/variables';
+
+.input {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+
+    &__label {
+        font-size: 9px;
+        color: $color-grey;
+    }
+
+    &__input {
+        border: none;
+        border-bottom: 1px solid $color-blue;
+        outline: none;
+        font-weight: 600;
+        color: $color-baseblack;
+
+        &::placeholder {
+            font-weight: 400;
+            color: $color-grey;
+        }
+
+        &:focus,
+        &:focus-visible,
+        &:focus-within {
+            background-color: transparent;
+        }
+    }
+    
+    &__error {
+        font-size: 8px;
+        color: $color-error;
+    }
+}

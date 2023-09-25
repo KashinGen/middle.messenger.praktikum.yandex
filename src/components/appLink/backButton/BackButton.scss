@@ -1,0 +1,20 @@
+@import '../../../styles/variables';
+
+.back-btn {
+    box-sizing: border-box;
+    width: 28px;
+    max-width: 28px;
+    height: 28px;
+    max-height: 28px;
+    border-radius: 50%;
+    background-image: url('../../../assets/icons/BackIcon.svg');
+    background-color: $color-blue;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    cursor: pointer;
+    
+    &:hover {
+        opacity: 0.9;
+    }
+}

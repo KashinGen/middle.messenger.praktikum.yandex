@@ -1,0 +1,19 @@
+@import '../../styles/variables';
+
+.search-field {
+    border: none;
+    outline: none;
+    background-color: $color-softgrey;
+    border-radius: 5px;
+    height: 32px;
+    font-weight: 600;
+    color: $color-grey;
+    box-sizing: border-box;
+    width: 100%;
+    background-image: url('../../assets/icons/searchIcon.svg');
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 5px;
+    padding-left: 30px;
+    position: relative;
+}

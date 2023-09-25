@@ -1,0 +1,17 @@
+{{#> Form formStyles="profile__container" }}
+    <div class="profile__avatar">
+        {{> Avatar }}
+    </div>
+    <div class="profile__info">
+        {{> ProfileItem label="Почта" isEdit=true name="email" type="email" value="iiivanov@yandex.ru" }}
+        {{> ProfileItem label="Логин" isEdit=true name="login" type="text" value="iiivanov" }}
+        {{> ProfileItem label="Имя" isEdit=true name="first_name" type="text" value="Иван" }}
+        {{> ProfileItem label="Отчество" isEdit=true name="midle_name" type="text" value="Иванович" }}
+        {{> ProfileItem label="Фамилия" isEdit=true name="second_name" type="text" value="Иванов" }}
+        {{> ProfileItem label="Никнейм" isEdit=true name="display_name" type="text" value="Иван" }}
+        {{> ProfileItem label="Телефон" isEdit=true name="phone" type="phone" value="8-800-535-35-35" }}
+    </div>
+    <div class="profile__part profile__buttons-standart-container">
+        {{> Button text="Сохранить" type="primary" }}
+    </div>
+{{/Form}}
