@@ -7,10 +7,10 @@
     "node": "16.19.0"
   },
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --open",
     "build": "vite build",
     "start": "npm run build && node server.cjs",
-    "preview": "vite preview",
+    "preview": "vite preview --open",
     "lint": "npx eslint --ext .js src && npx stylelint \"**/*.scss\" "
   },
   "repository": {

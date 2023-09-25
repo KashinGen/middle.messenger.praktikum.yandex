@@ -13,4 +13,3 @@ document.addEventListener('DOMContentLoaded', () => {
     window.route = router.routes;
     router.urlLocationHandler();
 });
-

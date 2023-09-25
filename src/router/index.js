@@ -1,8 +1,6 @@
 import * as Pages from '../pages';
 import Handlebars from 'handlebars';
 
-
-
 const routes = {
     404: {
         template: Pages.ErrorPage,
